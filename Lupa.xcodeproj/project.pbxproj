@@ -18,7 +18,7 @@
 		E8C9F34E2A48E88200A8F2B4 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9F34D2A48E88200A8F2B4 /* OnboardingViewController.swift */; };
 		E8C9F3512A48EB5C00A8F2B4 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9F3502A48EB5C00A8F2B4 /* UIView + Extension.swift */; };
 		E8C9F3532A48EC5200A8F2B4 /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9F3522A48EC5200A8F2B4 /* OnBoardingSlide.swift */; };
-		E8C9F3552A48F2FB00A8F2B4 /* OrboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9F3542A48F2FB00A8F2B4 /* OrboardingCollectionViewCell.swift */; };
+		E8C9F3552A48F2FB00A8F2B4 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9F3542A48F2FB00A8F2B4 /* OnboardingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		E8C9F34D2A48E88200A8F2B4 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		E8C9F3502A48EB5C00A8F2B4 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		E8C9F3522A48EC5200A8F2B4 /* OnBoardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
-		E8C9F3542A48F2FB00A8F2B4 /* OrboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8C9F3542A48F2FB00A8F2B4 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				E8C9F34D2A48E88200A8F2B4 /* OnboardingViewController.swift */,
-				E8C9F3542A48F2FB00A8F2B4 /* OrboardingCollectionViewCell.swift */,
+				E8C9F3542A48F2FB00A8F2B4 /* OnboardingCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C9F3512A48EB5C00A8F2B4 /* UIView + Extension.swift in Sources */,
-				E8C9F3552A48F2FB00A8F2B4 /* OrboardingCollectionViewCell.swift in Sources */,
+				E8C9F3552A48F2FB00A8F2B4 /* OnboardingCollectionViewCell.swift in Sources */,
 				E8C9F31A2A48E4F700A8F2B4 /* AppDelegate.swift in Sources */,
 				E8C9F31C2A48E4F700A8F2B4 /* SceneDelegate.swift in Sources */,
 				E8C9F34E2A48E88200A8F2B4 /* OnboardingViewController.swift in Sources */,

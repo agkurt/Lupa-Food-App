@@ -9,14 +9,10 @@ import UIKit
 
 class OrboardingCollectionViewCell: UICollectionViewCell {
     
-    static let identifier = String(describing :OrboardingCollectionViewCell.self)
+    static let identifier = String(describing:OrboardingCollectionViewCell.self)
     
     @IBOutlet weak var SlideImageView: UIImageView!
-    
-    
     @IBOutlet weak var SlideTitleLabel: UILabel!
-    
-    
     @IBOutlet weak var SlideDescriptionLabel: UILabel!
     
     func setup(_ slide : OnboardingSlide ) {
