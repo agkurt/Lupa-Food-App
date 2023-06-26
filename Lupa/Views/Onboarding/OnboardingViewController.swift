@@ -14,11 +14,12 @@ class OnboardingViewController: UIViewController {
     @IBOutlet weak var pageControl: UIPageControl!
     
     var slides : [OnboardingSlide] = []
-    
+        
     var currentPage = 0 {
         didSet {
             pageControl.currentPage = currentPage
             if currentPage == slides.count - 1 {
+                
                 nextButon.setTitle("Get Started", for: .normal)
 
             }else {
@@ -34,10 +35,16 @@ class OnboardingViewController: UIViewController {
             OnboardingSlide(title: "World-Class Chefs", description: "Our dishes are prepared by only the best.", image: #imageLiteral(resourceName: "slide1")),
             OnboardingSlide(title: "Instant World-Wide Delivery", description: "Your orders will be delivered instantly irrespective of your location around the world.", image: #imageLiteral(resourceName: "slide3"))
         ]
+        pageControl.numberOfPages = slides.count
     }
     
     @IBAction func NextButonClicked(_ sender: UIButton) {
         if currentPage == slides.count - 1 {
+            let controller = storyboard?.instantiateViewController(identifier: "HomeNavigationController") as! UINavigationController
+            
+            controller.modalPresentationStyle = .fullScreen
+            controller.modalTransitionStyle = .crossDissolve
+            present(controller, animated: true , completion: nil)
             print("go to the next page")
         }else {
             currentPage += 1
