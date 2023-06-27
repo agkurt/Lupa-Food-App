@@ -11,9 +11,12 @@ import Kingfisher
 class CategoryCollectionViewCell: UICollectionViewCell {
     
     static let identifier = String(describing: CategoryCollectionViewCell.self)
-
+    
     @IBOutlet weak var CategoryImageView: UIImageView!
     @IBOutlet weak var CategoryTitleLbl: UILabel!
+    
+    
+
     
     func setup(category : DishCategory) {
         CategoryTitleLbl.text = category.name

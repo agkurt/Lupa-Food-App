@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,7 +37,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Pjc-uq-0rG" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="INo-QY-qZn"/>
                             <constraint firstItem="Pjc-uq-0rG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fyc-yD-Bla"/>
@@ -51,9 +50,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="food app icon 1 (1)" width="1024" height="1024"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="food app icon 1 (1)" width="512" height="512"/>
     </resources>
 </document>
