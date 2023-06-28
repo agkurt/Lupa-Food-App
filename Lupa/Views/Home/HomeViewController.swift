@@ -11,6 +11,7 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var CategoryCollectionView: UICollectionView!
     
+    @IBOutlet weak var popularCollectionView: UICollectionView!
     
     
     var categories : [DishCategory] = [
@@ -31,7 +32,7 @@ class HomeViewController: UIViewController {
     
     private func registerCells() {
         CategoryCollectionView.register(UINib(nibName: CategoryCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: CategoryCollectionViewCell.identifier)
-        CategoryCollectionView.register(UINib(nibName: CategoryCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: CategoryCollectionViewCell.identifier)
+        popularCollectionView.register(UINib(nibName: CategoryCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: CategoryCollectionViewCell.identifier)
     }
 
 }
