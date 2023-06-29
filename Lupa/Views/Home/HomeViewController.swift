@@ -13,6 +13,8 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var popularCollectionView: UICollectionView!
     
+    @IBOutlet weak var chefSpecialCollectionView: UICollectionView!
+    
     
     var categories : [DishCategory] = [
         .init(id: "id1", name: "American Food1", image: "https://picsum.photos/100/200"),
