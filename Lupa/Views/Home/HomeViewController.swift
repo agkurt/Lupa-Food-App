@@ -13,7 +13,6 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var popularCollectionView: UICollectionView!
     
-    @IBOutlet weak var chefSpecialCollectionView: UICollectionView!
     
     
     var categories : [DishCategory] = [

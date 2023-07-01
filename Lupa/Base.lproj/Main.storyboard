@@ -315,7 +315,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="CategoryCollectionView" destination="4UX-e1-FUW" id="v3A-0n-oVh"/>
-                        <outlet property="chefSpecialCollectionView" destination="UXQ-5X-3Ww" id="8Le-og-Fq3"/>
                         <outlet property="popularCollectionView" destination="mhJ-o1-LMy" id="gnZ-l6-CgE"/>
                     </connections>
                 </viewController>

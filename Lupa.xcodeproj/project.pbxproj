@@ -10,7 +10,10 @@
 		C07ACE4A90DC5488A4CF5632 /* Pods_Lupa_LupaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD1F2C9659C81585845ED25 /* Pods_Lupa_LupaUITests.framework */; };
 		C103E614C0178B270D4941FC /* Pods_LupaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD79BB56A3D7132FBEF73EB /* Pods_LupaTests.framework */; };
 		C42C5A783EBAA31F43968A28 /* Pods_Lupa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CFC1FDD31F36E1D1161C97 /* Pods_Lupa.framework */; };
-		E8552DDB2A4ADCDA003669B8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8552DDA2A4ADCDA003669B8 /* CardView.swift */; };
+		E84449B22A4F029200E4799A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84449B12A4F029200E4799A /* CardView.swift */; };
+		E84449B82A4F053500E4799A /* DishPotraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84449B62A4F053500E4799A /* DishPotraitCollectionViewCell.swift */; };
+		E84449B92A4F053500E4799A /* DishPotraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84449B72A4F053500E4799A /* DishPotraitCollectionViewCell.xib */; };
+		E8A53BCD2A502EF7005AAB9A /* dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A53BCC2A502EF7005AAB9A /* dish.swift */; };
 		E8C9F31A2A48E4F700A8F2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9F3192A48E4F700A8F2B4 /* AppDelegate.swift */; };
 		E8C9F31C2A48E4F700A8F2B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9F31B2A48E4F700A8F2B4 /* SceneDelegate.swift */; };
 		E8C9F3212A48E4F700A8F2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C9F31F2A48E4F700A8F2B4 /* Main.storyboard */; };
@@ -54,7 +57,10 @@
 		5207EB9512705EB41AF79FCD /* Pods-LupaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LupaTests.release.xcconfig"; path = "Target Support Files/Pods-LupaTests/Pods-LupaTests.release.xcconfig"; sourceTree = "<group>"; };
 		BCD79BB56A3D7132FBEF73EB /* Pods_LupaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LupaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EDF860FF338C67E3B29CD4 /* Pods-Lupa-LupaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lupa-LupaUITests.release.xcconfig"; path = "Target Support Files/Pods-Lupa-LupaUITests/Pods-Lupa-LupaUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E8552DDA2A4ADCDA003669B8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E84449B12A4F029200E4799A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E84449B62A4F053500E4799A /* DishPotraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPotraitCollectionViewCell.swift; sourceTree = "<group>"; };
+		E84449B72A4F053500E4799A /* DishPotraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPotraitCollectionViewCell.xib; sourceTree = "<group>"; };
+		E8A53BCC2A502EF7005AAB9A /* dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dish.swift; sourceTree = "<group>"; };
 		E8C9F3162A48E4F700A8F2B4 /* Lupa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lupa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C9F3192A48E4F700A8F2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8C9F31B2A48E4F700A8F2B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,10 +138,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E84449B32A4F04E800E4799A /* DishPotraitCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E84449B62A4F053500E4799A /* DishPotraitCollectionViewCell.swift */,
+				E84449B72A4F053500E4799A /* DishPotraitCollectionViewCell.xib */,
+			);
+			path = DishPotraitCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		E8552DD92A4ADCCF003669B8 /* CardView */ = {
 			isa = PBXGroup;
 			children = (
-				E8552DDA2A4ADCDA003669B8 /* CardView.swift */,
+				E84449B12A4F029200E4799A /* CardView.swift */,
 			);
 			path = CardView;
 			sourceTree = "<group>";
@@ -201,6 +216,7 @@
 			children = (
 				E8C9F3522A48EC5200A8F2B4 /* OnBoardingSlide.swift */,
 				E8DC9D752A4A263B005FDCE3 /* DishCategory.swift */,
+				E8A53BCC2A502EF7005AAB9A /* dish.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -252,6 +268,7 @@
 		E8DC9D6A2A4A226C005FDCE3 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				E84449B32A4F04E800E4799A /* DishPotraitCollectionViewCell */,
 				E8DC9D6B2A4A228D005FDCE3 /* CategoryCollectionViewCell */,
 			);
 			path = CollectionViewCells;
@@ -376,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8DC9D732A4A2362005FDCE3 /* CategoryCollectionViewCell.xib in Resources */,
+				E84449B92A4F053500E4799A /* DishPotraitCollectionViewCell.xib in Resources */,
 				E8C9F3262A48E4F900A8F2B4 /* LaunchScreen.storyboard in Resources */,
 				E8C9F3232A48E4F900A8F2B4 /* Assets.xcassets in Resources */,
 				E8C9F3212A48E4F700A8F2B4 /* Main.storyboard in Resources */,
@@ -506,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84449B82A4F053500E4799A /* DishPotraitCollectionViewCell.swift in Sources */,
 				E8DC9D722A4A2362005FDCE3 /* CategoryCollectionViewCell.swift in Sources */,
 				E8C9F3512A48EB5C00A8F2B4 /* UIView + Extension.swift in Sources */,
 				E8C9F3552A48F2FB00A8F2B4 /* OnboardingCollectionViewCell.swift in Sources */,
@@ -513,9 +532,10 @@
 				E8C9F31C2A48E4F700A8F2B4 /* SceneDelegate.swift in Sources */,
 				E8C9F34E2A48E88200A8F2B4 /* OnboardingViewController.swift in Sources */,
 				E8DC9D692A49CB2F005FDCE3 /* HomeViewController.swift in Sources */,
+				E8A53BCD2A502EF7005AAB9A /* dish.swift in Sources */,
 				E8DC9D762A4A263B005FDCE3 /* DishCategory.swift in Sources */,
 				E8DC9D782A4A28A1005FDCE3 /* String+Extension.swift in Sources */,
-				E8552DDB2A4ADCDA003669B8 /* CardView.swift in Sources */,
+				E84449B22A4F029200E4799A /* CardView.swift in Sources */,
 				E8C9F3532A48EC5200A8F2B4 /* OnBoardingSlide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
