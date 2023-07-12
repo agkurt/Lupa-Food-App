@@ -182,7 +182,7 @@
 			children = (
 				E8C9F34F2A48EB4400A8F2B4 /* Extensions */,
 				E8C9F34B2A48E85D00A8F2B4 /* CustomViews */,
-				E8C9F34A2A48E82800A8F2B4 /* Views */,
+				E8C9F34A2A48E82800A8F2B4 /* Controllers */,
 				E8C9F3492A48E82200A8F2B4 /* Models */,
 				E8C9F3192A48E4F700A8F2B4 /* AppDelegate.swift */,
 				E8C9F31B2A48E4F700A8F2B4 /* SceneDelegate.swift */,
@@ -221,13 +221,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E8C9F34A2A48E82800A8F2B4 /* Views */ = {
+		E8C9F34A2A48E82800A8F2B4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				E8DC9D672A49CB16005FDCE3 /* Home */,
 				E8DC9D662A49CB08005FDCE3 /* Onboarding */,
 			);
-			path = Views;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		E8C9F34B2A48E85D00A8F2B4 /* CustomViews */ = {
