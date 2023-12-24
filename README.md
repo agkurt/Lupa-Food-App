@@ -1,4 +1,4 @@
-🔥 Welcome to WordRem Project! 🔥
+🔥 Welcome to Food App Project! 🔥
 
 **About**
 
