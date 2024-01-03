@@ -2,7 +2,7 @@
 //  ListOrdersViewController.swift
 //  Lupa
 //
-//  Created by Ahmet Göktürk Kurt on 26/06/2023.
+//  Created by Ahmet Göktürk Kurt on 26/08/2023.
 //
 
 import UIKit
@@ -31,7 +31,8 @@ class ListOrdersViewController: UIViewController {
                 self?.orders = orders
                 self?.tableView.reloadData()
             case .failure(let error):
-               break
+                break
+
             }
         }
     }

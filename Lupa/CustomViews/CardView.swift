@@ -2,7 +2,7 @@
 //  CardView.swift
 //  Lupa
 //
-//  Created by Ahmet Göktürk Kurt on 27/06/2023.
+//  Created by Ahmet Göktürk Kurt on 26/08/2023.
 //
 
 import UIKit

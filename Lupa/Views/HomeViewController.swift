@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  Lupa
 //
-//  Created by Ahmet Göktürk Kurt on 26/06/2023.
+//  Created by Ahmet Göktürk Kurt on 26/08/2023.
 //
 
 import UIKit
@@ -26,7 +26,6 @@ class HomeViewController: UIViewController {
         
         registerCells()
         
-        
         NetworkService.shared.fetchAllCategories { [weak self] (result) in
             switch result {
             case .success(let allDishes):
@@ -39,7 +38,7 @@ class HomeViewController: UIViewController {
                 self?.popularCollectionView.reloadData()
                 self?.specialsCollectionView.reloadData()
             case .failure(let error):
-               break
+                break
             }
         }
     }
