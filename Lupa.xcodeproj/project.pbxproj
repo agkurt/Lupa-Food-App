@@ -337,11 +337,11 @@
 		E8C9F3182A48E4F700A8F2B4 /* Lupa */ = {
 			isa = PBXGroup;
 			children = (
-				E8C918222B45B3F40096B889 /* CustomViews2 */,
+				E8C9F3492A48E82200A8F2B4 /* Models */,
 				E8C9180A2B45B2CF0096B889 /* Views2 */,
 				E81EAF3A2B45AD5A0041315F /* Networking */,
 				E8C9F34F2A48EB4400A8F2B4 /* Extensions */,
-				E8C9F3492A48E82200A8F2B4 /* Models */,
+				E8C918222B45B3F40096B889 /* CustomViews2 */,
 				E81EAF602B45AFAB0041315F /* LaunchScreen.storyboard */,
 				E81EAF632B45AFC30041315F /* AppDelegate.swift */,
 				E81EAF642B45AFC30041315F /* SceneDelegate.swift */,
